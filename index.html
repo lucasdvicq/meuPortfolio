@@ -6,54 +6,116 @@
     <title>Portfolio Lucas de Vicq</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/reset.css">
+    <link rel="stylesheet" href="estilos/contact.css">
+    <link rel="stylesheet" href="estilos/skills.css">
+    <link rel="stylesheet" href="estilos/work.css">
 </head>
 <body>
     <nav class="navbar">
         <div class="navbar_content">
             <ul>
-                <li>Sobre</li>
-                <li>Trabalhos</li>
-                <li>Habilidades</li>
-                <li>Contato</li>
+                <li><a href="#sobremim" class="navegation">Sobre</a></li>
+                <li><a href="#trabalhos" class="navegation">Trabalhos</a></li>
+                <li><a href="#habilidades" class="navegation">Habilidades</a></li>
+                <li><a href="#contato" class="navegation">Contato</a></li>
             </ul>
         </div>
     </nav>
     <section class="container">
-        <h2 class="cabecalho">Sobre mim</h2>
-        <p class="paragrafo">Olá! me chamo Lucas de Vicq, estudante de Análise e Desenvolvimento de Sistemas na Ibmec. Estou focado <br>no Front-End e estou animado para compartilhar meu conhecimento e habilidades com você. Tenho experiência<br>em HTML e CSS, que são a base do desenvolvimento web. Além disso, estou estudando JavaScript, React e <br>Python para adicionar interatividade e dinamismo às minhas criações. Espero que goste!</p>
+        <h2 id="sobremim" class="cabecalho">Sobre mim</h2>
+        <p class="paragrafo">Olá! me chamo Lucas de Vicq, estudante de Análise e Desenvolvimento de Sistemas na Ibmec. Meu foco é <br>no Front-End e estou animado para compartilhar meu conhecimento e habilidades com você. Tenho experiência<br>em HTML e CSS, que são a base do desenvolvimento web. Além disso, estou estudando JavaScript, React e <br>Python para adicionar interatividade e dinamismo às minhas criações. Espero que goste!</p>
     </section>
     <section class="container">
-        <h2 class="cabecalho">Trabalhos</h2>
+        <h2 id="trabalhos" class="cabecalho">Trabalhos</h2>
+        <div class="cardcontainer">
+        <div class="card">
+            <img src="./imagem/alurabook.png">
+            <div class="card__textos">
+              <h4><a href="https://lucasdvicq.github.io/alurabook/">Alurabook</a></h4>
+              <p>Livros</p>
+            </div>
+          </div>
         
+          <div class="card">
+            <img src="./imagem/aluraplus.png">
+            <div class="card__textos">
+              <h4><a href="https://aluraplus-lucasdvicq.vercel.app/">Aluraplus</a></h4>
+              <p>Filmes</p>
+            </div>
+          </div>
+        
+          <div class="card">
+            <img src="/imagem/aluramidi.png">
+            <div class="card__textos">
+              <h4><a href="#">Aluramidi</a></h4>
+              <p>Treinamento javascript</p>
+            </div>
+          </div>
+        </div>
     </section>
     <section class="container skills">
-        <h2 class="cabecalho">Habilidades</h2>
+        <h2 id="habilidades" class="cabecalho">Habilidades</h2>
         <p class="paragrafo">Descubra as habilidades e ferramentas que domino e que me permitem criar soluções criativas e funcionais.</p>
-        
-        <ul>
-            <div class="skills_content">
-                <li class="skills__item">
+        <div class="skills_content">
+            <ul>
+                <li class="skills_item">
                     <div class="image-container">
                         <img src="./imagem/icons8-macbook-50.png" alt="Desenvolvimento Web">
                     </div>
-                    <h3>Desenvolvimento Web</h3>
-                    <p class="paragrafo_habilidades">Experiência em desenvolvimento frontend com foco em tecnologias modernas.</p>
+                    <h3 class="habilidades">Desenvolvimento Web</h3>
+                    <p class="paragrafo-habilidades">Experiência em desenvolvimento frontend com foco em tecnologias modernas.</p>
                 </li>
-                <li class="skills__item">
+                <li class="skills_item">
                     <div class="image-container">
                         <img src="./imagem/icons8-iphone-50.png" alt="UX/UI Design">
                     </div>
-                    <h3>UX/UI Design</h3>
-                    <p class="paragrafo_habilidades">Conhecimentos em design de interface para experiência do usuário visualmente atraentes e intuitivas.</p>
+                    <h3 class="habilidades">UX/UI Design</h3>
+                    <p class="paragrafo-habilidades">Conhecimentos em design de interface para experiência do usuário visualmente atraentes e intuitivas.</p>
                 </li>
-                <li class="skills__item">
+                <li class="skills_item">
                     <div class="image-container">
                         <img src="./imagem/icons8-git-50.png" alt="Gerenciamento de versões">
                     </div>
-                    <h3>Gerenciamento de versões</h3>
-                    <p class="paragrafo_habilidades">Experiência em ferramentas de gerenciamento de versão.</p>
+                    <h3 class="habilidades">Gerenciamento de versões</h3>
+                    <p class="paragrafo-habilidades">Experiência em ferramentas de gerenciamento de versão para controle de projetos.</p>
                 </li>
-            </div>
-        </ul>
+            </ul>
+        </div>
+    </section>
+    <section class="container contact">
+        <h2 id="contato" class="cabecalho">Contato</h2>
+        <div class="contact_content">
+            <ul>
+                <li class="item">
+                    <div class="image-contact">
+                        <img src="./imagem/icons8-email-30.png" alt="Email">
+                    </div>
+                    <h3 class="itens_contact">E-mail</h3>
+                    <p class="paragrafo-habilidades">contatodevicqlucas@gmail.com</p>
+                </li>
+                <li class="item">
+                    <div class="image-contact">
+                        <img src="./imagem/icons8-phone-30.png" alt="Telefone">
+                    </div>
+                    <h3 class="itens_contact">Telefone</h3>
+                    <p class="paragrafo-habilidades">(21)99702-2001</p>
+                <li class="item">
+                    <div class="image-contact">
+                        <img src="./imagem/icons8-linkedin-30.png" alt="Linkedin">
+                    </div>
+                    <h3 class="itens_contact">Linkedin</h3>
+                    <p class="paragrafo-habilidades">@lucasdevicq</p>
+                </li>
+                <li class="item">
+                    <div class="image-contact">
+                        <img src="./imagem/icons8-github-30.png" alt="Github">
+                    </div>
+                    <h3 class="itens_contact">Github</h3>
+                    <p class="paragrafo-habilidades">@lucasdvicq</p>
+                </li>
+                </li>
+            </ul>
+        </div>
     </section>
 </body>
+</html>

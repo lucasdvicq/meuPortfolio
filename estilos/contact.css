@@ -1,0 +1,33 @@
+.skills_content {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.contact_content ul {
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    padding-right: 3em;
+    padding-left: 4em;
+    text-align: center;
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.itens_contact {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding-top: 1em;
+    padding-bottom: 0.1em;
+}
+
+.item:hover{
+  transform:scale(1.25,1.25);
+}
+
+.item:hover::after{
+  opacity:1;
+}
